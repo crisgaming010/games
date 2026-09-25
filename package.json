@@ -1,0 +1,24 @@
+{
+  "name": "cpm-tools-ts",
+  "version": "1.0.0",
+  "description": "CPM TypeScript Web App & Telegram Bot",
+  "main": "dist/web.js",
+  "scripts": {
+    "start": "tsx web.ts",
+    "start:web": "tsx web.ts",
+    "start:bot": "tsx app.ts",
+    "build": "tsc",
+    "build:bot": "tsc"
+  },
+  "dependencies": {
+    "grammy": "^1.35.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
